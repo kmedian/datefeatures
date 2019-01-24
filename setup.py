@@ -8,7 +8,7 @@ def read(fname):
 
 setup(name='datefeatures',
       version='0.1.0',
-      description='lorem ipsum',
+      description='Feature engineering sklearn transformer for dates',
       long_description=read('README.md'),
       long_description_content_type='text/markdown',
       url='http://github.com/kmedian/datefeatures',
