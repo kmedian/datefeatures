@@ -78,6 +78,8 @@ class DateComponents(BaseEstimator, TransformerMixin):
 
         self.feature_names_ = []
         for fld in flds:
+            if self.missing:
+                self.feature_names_.append(str(fld) + "_na")
             for attr in self.date_attr_:
                 self.feature_names_.append(
                     str(fld) + "_" + self.suffix_[attr])
