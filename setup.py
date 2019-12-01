@@ -18,7 +18,6 @@ setup(name='datefeatures',
       packages=['datefeatures'],
       install_requires=[
           'setuptools>=40.0.0',
-          'nose>=1.3.7',
           'numpy>=1.14.5',
           'scikit-learn>=0.20.0',
           'pandas>=0.23.4',
