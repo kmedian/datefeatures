@@ -1,3 +1,5 @@
+__version__ = '0.3.1'
+
 from .datecomponents import DateComponents
 from .timecircle import TimeCircle
 from .monthcircle import (

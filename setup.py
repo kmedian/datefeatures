@@ -2,8 +2,18 @@ from setuptools import setup
 import pypandoc
 
 
+def get_version(path):
+    with open(path, "r") as fp:
+        lines = fp.read()
+    for line in lines.split("\n"):
+        if line.startswith('__version__'):
+            delim = '"' if '"' in line else "'"
+            return line.split(delim)[1]
+    raise RuntimeError("Unable to find version string.")
+
+
 setup(name='datefeatures',
-      version='0.3.0',
+      version=get_version("datefeatures/__init__.py"),
       description='Feature engineering sklearn transformer for dates',
       long_description=pypandoc.convert('README.md', 'rst'),
       url='http://github.com/kmedian/datefeatures',
