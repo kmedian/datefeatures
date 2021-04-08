@@ -1,16 +1,11 @@
 from setuptools import setup
-
-
-def read(fname):
-    import os
-    return open(os.path.join(os.path.dirname(__file__), fname)).read()
+import pypandoc
 
 
 setup(name='datefeatures',
       version='0.3.0',
       description='Feature engineering sklearn transformer for dates',
-      long_description=read('README.md'),
-      long_description_content_type='text/markdown',
+      long_description=pypandoc.convert('README.md', 'rst'),
       url='http://github.com/kmedian/datefeatures',
       author='Ulf Hamster',
       author_email='554c46@gmail.com',
@@ -23,4 +18,4 @@ setup(name='datefeatures',
           'pandas>=0.23.4',
           'holidays>=0.9.9'],
       python_requires='>=3.6',
-      zip_safe=False)
+      zip_safe=True)
