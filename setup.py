@@ -1,5 +1,4 @@
 from setuptools import setup
-import pypandoc
 
 
 def get_version(path):
@@ -15,7 +14,7 @@ def get_version(path):
 setup(name='datefeatures',
       version=get_version("datefeatures/__init__.py"),
       description='Feature engineering sklearn transformer for dates',
-      long_description=pypandoc.convert('README.md', 'rst'),
+      long_description='README.rst',
       url='http://github.com/kmedian/datefeatures',
       author='Ulf Hamster',
       author_email='554c46@gmail.com',
@@ -27,4 +26,4 @@ setup(name='datefeatures',
           'pandas>=0.23.4',
           'holidays>=0.9.9'],
       python_requires='>=3.6',
-      zip_safe=False)
+      zip_safe=True)
