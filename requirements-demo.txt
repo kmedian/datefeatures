@@ -1,0 +1,4 @@
+# packages required to run example notebooks
+jupyterlab>=3.0.5
+randdate>=0.1.0
+mlxtend>=0.14.0

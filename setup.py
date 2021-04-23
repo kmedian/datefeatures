@@ -19,13 +19,12 @@ setup(name='datefeatures',
       url='http://github.com/kmedian/datefeatures',
       author='Ulf Hamster',
       author_email='554c46@gmail.com',
-      license='MIT',
+      license='Apache License 2.0',
       packages=['datefeatures'],
       install_requires=[
-          'setuptools>=40.0.0',
           'numpy>=1.14.5',
           'scikit-learn>=0.20.0',
           'pandas>=0.23.4',
           'holidays>=0.9.9'],
       python_requires='>=3.6',
-      zip_safe=True)
+      zip_safe=False)
