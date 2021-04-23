@@ -1,6 +1,5 @@
-[![Build Status](https://travis-ci.org/kmedian/datefeatures.svg?branch=master)](https://travis-ci.org/kmedian/datefeatures)
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/kmedian/datefeatures/master?urlpath=lab)
-[![Gitpod - Code Now](https://img.shields.io/badge/Gitpod-code%20now-blue.svg?longCache=true)](https://gitpod.io#https://github.com/kmedian/datefeatures)
+[![PyPI version](https://badge.fury.io/py/datefeatures.svg)](https://badge.fury.io/py/datefeatures)
+[![datefeatures](https://snyk.io/advisor/python/datefeatures/badge.svg)](https://snyk.io/advisor/python/datefeatures)
 
 # datefeatures
 
