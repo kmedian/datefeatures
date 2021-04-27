@@ -1,11 +1,11 @@
 # For ShoppingHolidayCalendar class
 import holidays
 from datetime import date, datetime
-from dateutil.relativedelta import relativedelta, TH, FR
+from dateutil.relativedelta import relativedelta, TH
 
 # For ShoppingHolidays class
 from sklearn.base import BaseEstimator, TransformerMixin
-from scipy.sparse import csr_matrix, lil_matrix
+from scipy.sparse import lil_matrix
 import numpy as np
 
 
