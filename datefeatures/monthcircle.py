@@ -1,6 +1,6 @@
 from sklearn.base import BaseEstimator, TransformerMixin
 import pandas as pd
-import numpy as np
+# import numpy as np
 from .timecircle import to_cos, to_sin
 from calendar import monthrange  # for 'frac_month'
 
